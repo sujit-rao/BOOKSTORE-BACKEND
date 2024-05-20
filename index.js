@@ -10,7 +10,7 @@ const app = express()
 app.use(cors());
 
 app.use(cors({
-  origin: 'https://bookstore-frontend-virid.vercel.app'
+  // origin: 'https://bookstore-frontend-virid.vercel.app'
 }));
 app.use(express.json());
 
