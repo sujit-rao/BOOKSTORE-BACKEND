@@ -10,7 +10,7 @@ const app = express()
 app.use(cors());
 
 app.use(cors({
-  origin: 'https://gleeful-mousse-b48fb8.netlify.app'
+  origin: 'https://bookstore-frontend-virid.vercel.app'
 }));
 app.use(express.json());
 
